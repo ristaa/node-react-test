@@ -15,7 +15,7 @@ var router = express.Router();
 var port = process.env.API_PORT || 3001;
 
 //db config -- REPLACE USERNAME/PASSWORD/DATABASE WITH YOUR OWN FROM MLAB!
-var mongoDB = 'mongodb://heroku_x3d6npkc:kgs966md8m94br9da1ohj8r9h@ds111885.mlab.com:11885/heroku_x3d6npkc';
+var mongoDB = 'mongodb://heroku_x3d6npkc:RISTA!2sarme@ds111885.mlab.com:11885/heroku_x3d6npkc';
 mongoose.connect(mongoDB, { useMongoClient: true })
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
